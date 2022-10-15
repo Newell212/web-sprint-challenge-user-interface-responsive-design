@@ -110,9 +110,7 @@ header {
     width: 100%;
     height: 22em;
 }
-br {
-    display: none;
-}
+
  /* header h1 nav {
     background-image: linear-gradient(rgb(0, 4, 17, .8), rgb(0, 4, 17, .8)), url('../img/home-header.jpg'); 
  } */
@@ -336,14 +334,16 @@ footer {
         width: 100%;
         height: 29em;
     }
+    h1 {
+        inline-size: 275px;
+        overflow-wrap: break-word;
+        margin-left: 18%;
+    }
     h1 a {
         font-size: 3.7rem;
         display: flex;
         justify-content: center;
         text-align: center;
-    }
-    br {
-        display: inline;
     }
     .just {
         display: flex;
