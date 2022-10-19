@@ -145,14 +145,133 @@ header {
 /* menu */
 
 .menu {
+    color: rgb(225, 239, 230);
     width: 100%;
-    height: auto;
-    background-image: url('../img/staff-bartender.jpg');
+    height: 450vh;
+    background: linear-gradient(rgb(0, 4, 17, .8), rgb(0, 4, 17, .8)),url('../img/staff-bartender.jpg');
     background-color: rgb(0, 4, 17);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.menu h2 {
+    text-align: center;
+    font-size: 5.6rem;
+}
+.menu p {
+    margin-bottom: 8%;
+}
+.drinks, .soup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8%;
+    width: 50%;
+}
+.appetizers, .entrees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 87em;
+}
+.menu h3 {
+    font-size: 4rem;
+    padding-bottom: 1.2%;
+}
+.menu h4 {
+    font-size: 3rem;
+    display: inline-block;
+}
+.drinks p {
+    font-size: 2.3rem;
+}
+.sodaprice {
+    margin-left: 10em;
+} 
+.coffeeprice {
+    margin-left: 9.3em;
+}
+.beerprice {
+    margin-left: 10.3em;
+}
+.wineprice {
+    margin-left: 10em;
+}
+.cocktailprice {
+    margin-left: 8.2em;
+}
+.drinks, .appetizers {
+    display: inline-block;
+}
+.appetizers h3 {
+    font-size: 4rem;
+    padding-bottom: 1.8%;
+
+}
+.appetizers h4 {
+    font-size: 3rem;
+    display: inline-block;
+}
+.appetizers p {
+    font-size: 2.3rem;
+}
+.drinks, .appetizers {
+    display: inline-block;
+    vertical-align: top;
+}
+.appetizers {
+    margin-top: -100vh;
+}
+.pickleprice {
+    margin-left: 8.2em;
+}
+.wingprice {
+    margin-left: 7.1em;
+}
+.poutineprice {
+    margin-left: 10em;
+}
+.soup h3 {
+    font-size: 4rem;
+    padding-bottom: 1.2%;
+    padding-top: 3%;
+}
+.soup h4 {
+    font-size: 3rem;
+    display: inline-block;
+}
+.soup p {
+    font-size: 2.3rem;
+}
+.saladprice {
+    margin-left: 6.4em;
+}
+.fosoupprice {
+    margin-left: 3.4em;
+}
+.cbsoupprice {
+    margin-left: 1.5em;
+}
+.entrees {
+    margin-top: -70vh;
+}
+.entrees h4 {
+    font-size: 3rem;
+    display: inline-block;
+}
+.entrees h3 {
+    font-size: 4.6rem;
+    padding-bottom: 1.5%;
+    padding-top: 3%;
+}
+.entrees p {
+    font-size: 2.5rem;
+}
+.steakprice {
+    margin-left: 8.5em;
+}
+
 
 /* footer section */
 footer {
