@@ -312,10 +312,62 @@ header {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
+    height: 30vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
+footer a {
+    color: rgb(225, 239, 230);
+}
+.join h4 {
+    font-size: 3.5rem;
+    padding-left: 7%;
+}
+.join input {
+    position: relative;
+    font-size: 2.6rem;
+    margin-left: 2%;
+    width: 22%;
+}
+.join button {
+    position: absolute;
+    font-size: 2.6rem;
+    padding-left: 0%;
+    width: 8%;
+    margin-top: .4%;
+}
+.fnav a {
+    /* padding-right: 3%; */
+    font-size: 2.4rem;
+    position: relative;
+    left: 16%;
+    bottom: 11vh;
+    margin-left: 11.6rem;
+}
+.fnav nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fnav {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+}
+.copyright p {
+    font-size: 1.63rem;
+    padding-right: 3%;
+}
+
 
 /* mobile media query */
 @media (max-width: 428px) {
