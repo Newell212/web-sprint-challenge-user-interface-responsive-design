@@ -401,13 +401,313 @@ footer a {
         font-size: 2.4rem;
         padding: 1.8% 3%;
     }
-
+    .drinks, .appetizers {
+        display: table;
+    }
     /* menu */
     .menu {
         background-image: none;
         background: rgb(225, 239, 230);
         color: rgb(0, 4, 17);
+        width: 100%;
+        height: auto;
     }
+    .menu h2 {
+        font-size: 6rem;
+        padding-top: 1.2em;
+        text-decoration: underline;
+        text-decoration-thickness: 30%;
+        padding-bottom: 1em;
+    }
+    .menu h4 {
+        display: table;
+    }
+    .drinks {
+        width: 428px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .drinks h3 {
+        font-size: 4.5rem;
+        border: 6px solid rgb(0, 4, 17);
+        margin-left: 1em;
+        padding-right: 16%;
+        padding-left: 14%;
+    }
+    .soda {
+        flex-direction: column;
+        text-align: center;
+       margin-left: 14em;
+    }
+    .soda p {
+        margin-left: -1.8em;
+    }
+    .sodaprice {
+        margin-left: .4em;
+    }
+    hr {
+        width: 25em;
+        height: .5em;
+       background-color: rgb(0, 4, 17);
+       margin-left: 6em;
+    }
+    .coffee {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 14em;
+    }
+    .coffee p {
+        margin-left: -2.9em;
+        inline-size: 200px;
+    }
+    .coffeeprice {
+        margin-left: .4em;
+    }
+    .beer {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 14em;
+    }
+    .beer p {
+        margin-left: -2.8em;
+        inline-size: 200px;
+    }
+    .beerprice {
+        margin-left: .4em;
+    }
+    .wine {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 14em;
+    }
+    .wine p {
+        margin-left: -3.3em;
+    }
+   .wineprice {
+    margin-left: .4em;
+   }
+   .cocktail {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 14em;
+   }
+   .cocktail p {
+    margin-left: -2.4em;
+    inline-size: 200px;
+   }
+   .cocktailprice {
+    margin-left: .4em;
+   }
+   .appetizers {
+    width: 428px;
+    margin-left: -75em;
+    margin-top: 10vh;
+   }
+   .appetizers h3 {
+        font-size: 4.5rem;
+        border: 6px solid rgb(0, 4, 17);
+        margin-left: -.4em;
+        margin-right: 2.6em;
+        padding-right: 0%;
+        padding-left: 1%;
+   }
+   .pickles {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+   }
+   .pickles p {
+    margin-left: -1em;
+    inline-size: 200px;
+   }
+   .pickleprice {
+    margin-left: 2em;
+   }
+   .app {
+    margin-left: -.3em;
+   }
+   .wing {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+   }
+   .wing p {
+    inline-size: 200px;
+    margin-left: -1em;
+   }
+   .wingprice {
+    margin-left: 1.8em;
+   }
+   .poutine {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5em;
+   }
+  
+   .poutine p {
+    inline-size: 200px;
+    margin-left: -2em;
+   }
+   .poutineprice {
+    margin-left: 1em;
+   }
+   .soup {
+        width: 428px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10vh;
+   }
+   .soup h3 {
+        font-size: 4.5rem;
+        border: 6px solid rgb(0, 4, 17);
+        margin-left: 1.4em;
+        padding-right: 0%;
+        padding-left: 0%;
+        inline-size: 250px;
+   }
+   .salad {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 8em;
+        padding-top: 3vh;
+   }
+   .salad h4 {
+    font-size: 4rem;
+   }
+   .salad p {
+    margin-left: -.1em;
+    inline-size: 200px;
+   }
+   .saladprice {
+    margin-left: 1.8em;
+   }
+   .fosoup {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 6em;
+    padding-top: 3vh;
+   }
+   .fosoup h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -.2em;
+   }
+   .fosoup p {
+    margin-left: 1em;
+    inline-size: 195px;
+   }
+   .fosoupprice {
+    margin-left: -.4em;
+   }
+   .cbsoup {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 6em;
+    padding-top: 3vh;
+   }
+   .cbsoup h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -.2em;
+   }
+   .cbsoup p {
+    margin-left: 1em;
+    inline-size: 195px;
+   }
+   .cbsoupprice {
+    margin-left: -.4em;
+   }
+   .entrees {
+    width: 428px;
+    margin-left: -60em;
+    margin-top: 10vh;
+   }
+   .entrees h3 {
+    font-size: 4.5rem;
+    border: 6px solid rgb(0, 4, 17);
+    margin-left: -.4em;
+    margin-right: 2.2em;
+    padding-right: .75em;
+    padding-left: .75em;
+   }
+   .steak {
+    flex-direction: column;
+    text-align: center;
+    margin-left: -4em;
+    margin-top: 5vh;
+   }
+   .steak h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1.2em;
+   }
+   .steak p {
+    margin-left: -.7em;
+    inline-size: 195px;
+   }
+   .burger {
+    flex-direction: column;
+    text-align: center;
+    margin-left: -4em;
+    margin-top: 5vh;
+   }
+   .burger h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1.2em;
+   }
+   .burger p {
+    margin-left: -.7em;
+    inline-size: 210px;
+   }
+   .rib {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 6em;
+    margin-top: 5vh;
+   }
+   .rib h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1.2em;
+   }
+   .rib p {
+    margin-left: -.7em;
+    inline-size: 210px;
+   }
+   .ent {
+    margin-left: -6.6em;
+   }
+   .desserts {
+    width: 428px;
+    margin-left: 11em;
+    margin-top: 10vh;
+   }
+   .desserts h3 {
+    font-size: 4.5rem;
+    border: 6px solid rgb(0, 4, 17);
+    margin-left: -.3em;
+    margin-right: 4em;
+    padding-right: 4em;
+    padding-left: 1em;
+   }
+   .cake {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 5vh;
+   }
+   .cake h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1.2em;
+   }
+   .cake p {
+    margin-left: -1em;
+    inline-size: 210px;
+   }
 
     /* footer section */
     footer {
