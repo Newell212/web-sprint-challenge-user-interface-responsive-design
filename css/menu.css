@@ -410,7 +410,7 @@ footer a {
         background: rgb(225, 239, 230);
         color: rgb(0, 4, 17);
         width: 100%;
-        height: auto;
+        height: 1060vh;
     }
     .menu h2 {
         font-size: 6rem;
@@ -708,11 +708,104 @@ footer a {
     margin-left: -1em;
     inline-size: 210px;
    }
-
+   .des {
+    margin-left: -2em;
+   }
+   .icecream {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 5vh;
+   }
+   .icecream h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1.2em;
+   }
+   .icecream p {
+    margin-left: -1em;
+    inline-size: 210px;
+   }
+   .brulee {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 5vh;
+   }
+   .brulee h4 {
+    font-size: 4rem;
+    inline-size: 250px;
+    margin-left: -1em;
+   }
+   .brulee p {
+    margin-left: -1em;
+    inline-size: 210px;
+   }
+   .bruleeprice {
+    margin-left: 2.6em;
+   }
     /* footer section */
     footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+    .join h4 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-bottom: 5%;
+        padding-right: 8%;
+    }
+    .join input {
+        position: relative;
+        font-size: 2rem;
+        margin-left: 7%;
+        margin-bottom: 30%;
+        width: 90%;
+    }
+    .join button {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        font-size: 2rem;
+        padding-left: 34%;
+        margin-left: 7%;
+        width: 90%;
+        margin-top: -30%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+    .fnav a {
+        /* padding-right: 3%; */
+        font-size: 3rem;
+        position: relative;
+        left: 0%;
+        bottom: 11vh;
+        margin-left: -7rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .fnav nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fnav {
+        display: flex;
+        justify-content: center;
+        padding-left: 15%;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .copyright p {
+        font-size: 1.4rem;
+        padding-right: 3%;
+        padding-top: 1.2%;
     }
 }
